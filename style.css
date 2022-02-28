@@ -5,26 +5,47 @@ body{
   background-color: lightyellow;
   padding-top: 100px
 }
-section{
-  background-color: lightsteelblue;
+
+section {
   height: 600px;
   width: 600px;
   margin: 0 auto;
+}
 
+section:not(:first-child) {
+  margin-top: 100px;’
+}
+
+#albers {
+  background-color: lightsteelblue;
   padding: 50px;
 }
-section > div {
+
+#albers > div {
   background-color: lightskyblue;
   height: 50%
   width: 50%
   margin: 0 auto;
   padding: 50px;
 }
-section > div > div {
+
+#albers > div > div {
   background-color: lemonchiffon;
 }
 
-div{
+#albers div {
   height:100%;
   width:100%;
+}
+
+.inner {
+  background-color: orange;
+}
+
+#someone {
+  background-color: gold;
+}
+
+#third-guy {
+  background-color: tomato;
 }
